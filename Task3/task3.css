@@ -1,0 +1,45 @@
+.parent {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 50px);
+  gap: 20px;
+}
+.header {
+  background-color: rgb(65, 234, 186);
+  grid-column: 1/-1;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.aside {
+  background-color: greenyellow;
+  grid-column: 1;
+  grid-row: 2/8;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.article {
+  background-color: orange;
+  grid-column: 2/4;
+  grid-row: 2/8;
+}
+.footer {
+  background-color: rgb(65, 234, 186);
+  grid-column: 1/-1;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.article {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.parent2 {
+  background-color: yellow;
+  display: grid;
+  justify-self: end;
+  gap: 10%;
+}

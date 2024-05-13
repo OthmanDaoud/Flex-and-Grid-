@@ -1,0 +1,22 @@
+body {
+  background-color: aqua;
+  text-size-adjust: 1px;
+  display: grid;
+}
+
+.parent {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(183, 214, 126);
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px gray;
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+}
+.img {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
